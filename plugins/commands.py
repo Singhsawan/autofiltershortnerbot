@@ -276,7 +276,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('Dᴏᴡɴʟᴏᴀᴅ 📥', url=f'https://t.me/Watch_onlineMovie_bot?start={message.command[1]}')]),
+                      InlineKeyboardButton('Dᴏᴡɴʟᴏᴀᴅ 📥', url=f'https://t.me/Watch_onlineMovie_bot?start={message.command[1]}')])
                       InlineKeyboardButton('Sᴛʀᴇᴀᴍ 🖥', url=f'https://t.me/Watch_onlineMovie_bot?start={message.command[1]}')])
                    ],[
                       InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url="https://t.me/svs_support_chat")
